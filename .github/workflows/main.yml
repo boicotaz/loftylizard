@@ -45,4 +45,4 @@ jobs:
           password: ${{ secrets.DOCKER_HUB_TOKEN }}
 
       - name: Push Docker Image
-         run: docker push ${{ secrets.DOCKER_HUB_USERNAME }}/loftylizard
+        run: docker push ${{ secrets.DOCKER_HUB_USERNAME }}/loftylizard
